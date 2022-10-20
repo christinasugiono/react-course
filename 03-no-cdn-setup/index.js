@@ -1,3 +1,6 @@
+import React from "react"
+import ReactDOM from "react-dom"
+
 const navbar = (
   <nav>
     <div>
@@ -13,6 +16,6 @@ const navbar = (
 
 
 ReactDOM.render(
-navbar,
-document.getElementById('root')
+  navbar,
+  document.getElementById('root')
 )
